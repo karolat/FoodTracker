@@ -43,7 +43,7 @@
                                             <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cjz-dd-13i"/>
                                         </connections>
                                     </button>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" translatesAutoresizingMaskIntoConstraints="NO" id="nom-Ju-ae2">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="nom-Ju-ae2">
                                         <rect key="frame" x="0.0" y="118" width="320" height="320"/>
                                         <animations/>
                                         <constraints>
@@ -76,4 +76,7 @@
             <point key="canvasLocation" x="438" y="398"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="defaultPhoto" width="800" height="800"/>
+    </resources>
 </document>
